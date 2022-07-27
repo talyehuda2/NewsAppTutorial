@@ -1,5 +1,6 @@
 package com.androiddevs.mvvmnewsapp.models
 
+
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
@@ -8,7 +9,7 @@ import androidx.room.PrimaryKey
 )
 data class Article(
     @PrimaryKey(autoGenerate = true)
-    val id: Int? = null,
+    var id: Int? = null,
     val author: String,
     val content: String,
     val description: String,

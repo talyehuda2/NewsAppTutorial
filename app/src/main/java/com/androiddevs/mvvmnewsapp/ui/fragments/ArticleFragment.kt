@@ -9,7 +9,7 @@ import com.androiddevs.mvvmnewsapp.ui.NewsViewModel
 
 class ArticleFragment : Fragment(R.layout.fragment_article) {
 
-    lateinit var viewModel : NewsViewModel
+    lateinit var viewModel: NewsViewModel
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
